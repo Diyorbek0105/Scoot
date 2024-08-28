@@ -1,0 +1,33 @@
+.aboutHero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+    margin-bottom: 120px;
+}
+
+.aboutHero h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+@media (width <=800px) {
+    .aboutHero {
+        padding: 50px 5px;
+    }
+    .aboutHero h1 {
+        font-size: 53px;
+    }
+}
+@media (width <=546px) {
+    .aboutHero {
+        padding: 40px 5px;
+    }
+    .aboutHero h1 {
+        font-size: 45px;
+    }
+}

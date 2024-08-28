@@ -1,0 +1,141 @@
+.aboutBanner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    margin-bottom: 120px;
+}
+
+.aboutImg1 {
+    width: 80%;
+    height: 38vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutImg2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.aboutBanCard h5 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #495567;
+    margin: 32px 0 27px;
+}
+
+.aboutBanCard p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #939caa;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.about_title h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #495567;
+    margin-bottom: 103px;
+}
+
+@media (width <=890px) {
+    .aboutImg1 {
+        height: 30vh;
+    }
+
+    .aboutImg2 {
+        width: 35%;
+    }
+
+    .about_title h2 {
+        font-size: 45px;
+    }
+
+    .aboutBanCard h5 {
+        font-size: 22px;
+    }
+
+    .aboutBanCard p {
+        font-size: 13px;
+    }
+}
+
+@media (width <=763px) {
+    .aboutImg1 {
+        height: 25vh;
+    }
+
+    .about_title h2 {
+        font-size: 40px;
+    }
+
+    .aboutBanCard h5 {
+        font-size: 20px;
+    }
+
+    .aboutBanCard p {
+        font-size: 12px;
+    }
+}
+
+@media (width <=763px) {
+    .aboutBanner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .aboutImg1 {
+        height: 25vh;
+    }
+
+    .about_title h2 {
+        font-size: 40px;
+        margin-bottom: 80px;
+    }
+
+    .aboutBanCard h5 {
+        font-size: 20px;
+    }
+
+    .aboutBanCard p {
+        font-size: 12px;
+    }
+}
+@media (width <=540px) {
+    .aboutBanner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutImg1 {
+        width: 60%;
+        height: 25vh;
+    }
+    .aboutImg2 {
+        width: 20%;
+    }
+
+    .about_title h2 {
+        font-size: 35px;
+        margin-bottom: 80px;
+    }
+
+    .aboutBanCard h5 {
+        font-size: 18px;
+    }
+
+    .aboutBanCard p {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+body button:active {
+    background: transparent;
+    border: 1px solid #FCB72B;
+    color: #FCB72B;
+    transition: 100ms;
+}
+body button:hover{
+    cursor: pointer;
+}
+body ul li:active {
+    color: #FCB72B;
+    cursor: pointer;
+}
+
+:root {
+    --font-family: "Space Mono", sans-serif;
+    --second-family: "Lexend Deca", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

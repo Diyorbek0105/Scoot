@@ -1,0 +1,258 @@
+.homeBanner1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.homeBanner1_content {
+    width: 60%;
+}
+
+.homeBanner1 img {
+    width: 35%;
+    height: 60vh;
+}
+
+.homeBanner1_content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #495567;
+    width: 50%;
+    margin: 66px 0 24px;
+}
+
+.homeBanner1_content p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #939caa;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.homeBanner1_content button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+    background-color: #FCB72B;
+    border: none;
+    padding: 1.5% 3.5%;
+}
+
+.homeBanner2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.homeBanner2 img {
+    width: 35%;
+}
+
+.homeBanner2_content {
+    width: 35%;
+}
+
+.homeBanner2_content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #495567;
+    margin: 66px 0 24px;
+}
+
+.homeBanner2_content p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #939caa;
+}
+
+.homeBanner2_content button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+    background-color: #FCB72B;
+    border: none;
+    padding: 1.5% 3.5%;
+    margin-top: 40px;
+}
+
+@media (width <=952px) {
+    .homeBanner1 img {
+        height: 50vh;
+    }
+
+    .homeBanner2 img {
+        height: 50vh;
+    }
+
+    .homeBanner1_content h2 {
+        font-size: 46px;
+    }
+
+    .homeBanner2_content h2 {
+        font-size: 46px;
+    }
+
+    .homeBanner1_content p {
+        font-size: 13px;
+    }
+
+    .homeBanner2_content p {
+        font-size: 13px;
+    }
+
+    .homeBanner1_content button {
+        font-size: 13px;
+    }
+
+    .homeBanner2_content button {
+        font-size: 13px;
+    }
+}
+
+@media (width <=782px) {
+    .homeBanner1 img {
+        height: 40vh;
+    }
+
+    .homeBanner2 img {
+        height: 40vh;
+    }
+
+    .homeBanner1_content h2 {
+        font-size: 42px;
+    }
+
+    .homeBanner2_content h2 {
+        font-size: 42px;
+    }
+
+    .homeBanner1_content p {
+        font-size: 11px;
+    }
+
+    .homeBanner2_content p {
+        font-size: 11px;
+    }
+
+    .homeBanner1_content button {
+        font-size: 12px;
+    }
+
+    .homeBanner2_content button {
+        font-size: 12px;
+    }
+}
+
+@media (width <=688px) {
+    .homeBanner1 {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .homeBanner2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .homeBanner1_content {
+        width: 100%;
+    }
+
+    .homeBanner2_content {
+        width: 100%;
+    }
+
+    .homeBanner1 img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        height: 40vh;
+    }
+
+    .homeBanner2 img {
+        height: 40vh;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .homeBanner1_content h2 {
+        width: 90%;
+        margin: 0 auto 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .homeBanner2_content h2 {
+        font-size: 40px;
+        width: 90%;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .homeBanner1_content p {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto 20px;
+        font-size: 11px;
+    }
+
+    .homeBanner2_content p {
+        font-size: 11px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+
+    .homeBanner1_content button {
+        display: block;
+        margin: 0 auto 40px;
+        font-size: 11px;
+    }
+
+    .homeBanner2_content button {
+        font-size: 11px;
+        display: block;
+        margin: 0 auto 40px;
+    }
+}
+@media (width <=500px) {
+
+    .homeBanner1 img {
+        height: 30vh;
+    }
+
+    .homeBanner2 img {
+        height: 30vh;
+    }
+
+    .homeBanner1_content h2 {
+        font-size: 35px;
+    }
+
+    .homeBanner2_content h2 {
+        font-size:35px;
+    }
+}

@@ -1,0 +1,155 @@
+.homeHero {
+    background-image: url("../image/homeHero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 153px 0;
+}
+
+.homeHero h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #fff;
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+.homeHero_content {
+    margin-left: 9%;
+}
+
+.homeHero_content p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #fff;
+    width: 33%;
+    margin-bottom: 40px;
+}
+
+.homeHero_content button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+    background-color: #FCB72B;
+    border: none;
+    padding: 1.5% 3.5%;
+}
+
+
+@media (width <=930px) {
+    .homeHero h1 {
+        font-size: 53px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .homeHero_content {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .homeHero_content p {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .homeHero_content button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (width <=809px) {
+    .homeHero h1 {
+        width: 70%;
+        font-size: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .homeHero_content {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .homeHero_content p {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .homeHero_content button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .homeHero {
+        padding: 130px 0;
+    }
+}
+@media (width <=593px) {
+    .homeHero h1 {
+        font-size: 45px;
+    }
+
+    .homeHero_content {
+        width: 70%;
+    }
+
+    .homeHero_content p {
+        font-size: 12px;
+    }
+
+    .homeHero_content button {
+        display: block;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .homeHero {
+        padding: 110px 0;
+    }
+}
+@media (width <=494px) {
+    .homeHero h1 {
+        font-size: 38px;
+    }
+
+    .homeHero_content {
+        width: 70%;
+    }
+
+    .homeHero_content p {
+        font-size: 11px;
+    }
+
+    .homeHero {
+        padding: 100px 0;
+    }
+}
+@media (width <=440px) {
+    .homeHero h1 {
+        font-size: 33px;
+    }
+
+    .homeHero_content {
+        width: 70%;
+    }
+
+    .homeHero_content p {
+        font-size: 11px;
+    }
+    .homeHero {
+        padding: 80px 0;
+    }
+}
